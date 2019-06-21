@@ -1,0 +1,108 @@
+#header-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4em;
+}
+
+#nav-bar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.25em;
+  text-align: center;
+  word-spacing: 1em;
+  font-size: 1.5em;
+  font-family: "Bungee Hairline", cursive;
+    position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: white;
+}
+
+#splash {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+}
+
+#goodies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#tutorial {
+  margin-bottom: 3em;
+}
+
+.product-card {
+  margin-bottom: 2em;
+}
+
+#video {
+  margin-bottom: 2em;
+}
+
+#map {
+  margin-bottom: 2em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 4em;
+  font-family: "Bungee Shade", cursive;
+  font-weight: normal;
+  margin-bottom: 0em;
+  padding-top: 0.5em;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Bungee Hairline", cursive;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+#goodies-top {
+}
+
+submit, button, input, select, textarea {
+  font-family: "Bungee Hairline", cursive;
+  font-size   : 100%;
+}
+
+
+a {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:focus {
+  color: black;
+}
+
+a:hover {
+  color: #f44283;
+}
+
+a:active {
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    background: hotpink;
+  }
+}
