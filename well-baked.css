@@ -14,9 +14,9 @@
   word-spacing: 1em;
   font-size: 1.5em;
   font-family: "Bungee Hairline", cursive;
-    position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+    position: fixed;
+  top: 0;
+  width: 100%;
   background-color: white;
 }
 
